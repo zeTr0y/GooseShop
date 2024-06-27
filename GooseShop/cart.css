@@ -1,0 +1,16 @@
+.des-card{
+    width: 40vw;
+    height: 13vw;
+    background-color: #681C88;
+    border-radius: 15px;
+}
+
+.des-img{
+    width: 27%;
+    border-radius: 10px;
+    flex-direction: column
+}
+
+.des-other{
+    justify-content: space-between
+}
