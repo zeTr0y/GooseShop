@@ -3,14 +3,49 @@
     height: 13vw;
     background-color: #681C88;
     border-radius: 15px;
+    display: flex;
 }
 
 .des-img{
     width: 27%;
     border-radius: 10px;
-    flex-direction: column
+    margin: 10px;
 }
 
 .des-other{
-    justify-content: space-between
+    display: flex;
+    flex-direction: column;
+}
+
+.des-name-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-name{
+    text-align: center;
+    height: 20px;
+}
+
+.des-price{
+    font-size: 15pt;
+    margin-right: 10px;
+    border-bottom: 3px solid white;
+}
+
+.card-info{
+    width: 95%;
+    height: 60%;
+}
+
+.card-info h1{
+    font-size: 16px;
+    text-align: justify;
+}
+
+.des-cards{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
